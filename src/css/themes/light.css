@@ -1,0 +1,46 @@
+:root [data-theme="light"] {
+    --color-black: #000;
+    --color-dark: #24292e;
+    --color-background: #f6f8fa;
+    --color-border: #eaecef;
+    --color-white: #fff;
+    --color-gray: #e6e6e6;
+    --color-dark-gray: #c6c6c6;
+    --color-dark-dark-gray: #969696;
+    --color-blue: #005aaa;
+    --color-pink: #e72b70;
+    --grid-elements-borders: var(--color-blue);
+    --grid-elements-shadow: var(--color-gray);
+    --grid-elements-title-color: var(--color-white);
+
+    --button-background: var(--color-gray);
+    --button-border: var(--color-blue);
+    --button-color: var(--color-black);
+    --button-hover-background: var(--color-dark-gray);
+    --button-hover-color: var(--color-black);
+    --button-active-background: var(--color-blue);
+    --button-active-color: var(--color-white);
+
+    --input-number-background: var(--color-white);
+    --input-number-border: var(--color-blue);
+    --input-number-color: var(--color-black);
+
+    --switch-background: var(--color-gray);
+    --switch-but-on: var(--color-blue);
+    --switch-but-off: var(--color-dark-gray);
+    --switch-but-disabled: var(--color-dark-dark-gray);
+
+    --select-head-background: var(--color-blue);
+    --select-head-color: var(--color-white);
+    --select-option-background: var(--color-white);
+    --select-option-color: var(--color-blue);
+    --select-option-hover-background: var(--color-blue);
+    --select-option-hover-color: var(--color-white);
+
+    --select-search-option-color: var(--color-blue);
+    --select-search-option-background: var(--color-white);
+    --select-search-option-border: var(--color-blue);
+    --select-search-option-hover-color: var(--color-white);
+    --select-search-option-hover-background: var(--color-pink);
+    --select-search-options-innerShadow: var(--color-black);
+}

@@ -1,0 +1,11 @@
+{
+    "url": {
+        "getStatus": "http://localhost:62202/status",
+        "enable": "http://localhost:62202/enable",
+        "setTargetTemperature": "http://localhost:62202/targetTemperature"
+    },
+    "settings": {
+        "default": null
+    },
+    "StatusUpdateInterval_ms": 1000
+}

@@ -1,0 +1,56 @@
+.control {
+    min-width: 250px;
+
+    #switch {
+        padding: 10px;
+        display: flex;
+        cursor: pointer;
+        user-select: none;
+
+        >span {
+            flex-grow: 1;
+        }
+    }
+
+    #temperatureControl {
+        border-top: 1.5px solid var(--grid-elements-borders);
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        padding: 10px;
+        gap: 10px;
+
+        input {
+            padding: 5px 2px;
+        }
+
+        input[type="number"] {
+            padding: 5px 2px;
+            cursor: auto;
+            border-radius: 5px;
+            background-color: var(--input-number-background);
+            border: 1px solid var(--input-number-border);
+            color: var(--input-number-color);
+        }
+
+        >button {
+            padding: 5px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+            background-color: var(--button-background);
+            border: 1px solid var(--button-border);
+            color: var(--button-color);
+            transition: background-color 0.05s linear, color 0.05s linear;
+
+            &:hover {
+                background-color: var(--button-hover-background);
+                color: var(--button-hover-color);
+            }
+
+            &:active {
+                background-color: var(--button-active-background);
+                color: var(--button-active-color);
+            }
+        }
+    }
+}
