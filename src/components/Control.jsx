@@ -31,8 +31,11 @@ class Control extends React.Component {
     render() {
         return (<div className="control">
             <div className="title">Управление системой</div>
-            <label id="switch"><span>Вкл / Выкл</span><Switch enabled={this.props.isBlocked} onChange={this.enableSystem} /></label>
-            <div id="temperatureControl">
+            <div className="onOffSwitches">
+                <button onClick={this.enableSystem.bind(this, false)}>Выкл</button>
+                <button onClick={this.enableSystem.bind(this, true)}>Вкл</button>
+            </div>
+            <div className="temperatureControl">
                 <label><span>Температура: </span><input type="number" min="0" max="60" value={this.temperature} onChange={e => this.setState({ temperature: e.target.value })} /></label>
                 <button onClick={this.setTargetTemperature}>Установить</button>
             </div>
